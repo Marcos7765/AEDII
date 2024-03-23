@@ -2,7 +2,7 @@ Estudante: Marcos Vinícius Bandeira Irigoyen
 
 Resolution of task 1 from the [Algorithms and Data Structures II course](https://github.com/ivanovitchm/datastructure) at UFRN. More context about it shall be available at the professor's repository wheter he chooses to.
 
-[Presentation video](https://drive.google.com/file/d/1RaMlhAJGb3MXoFBvHfDlEV1VZd7ZRzqY/view?usp=sharing)
+[Presentation video](https://drive.google.com/file/d/1RaMlhAJGb3MXoFBvHfDlEV1VZd7ZRzqY/view?usp=sharing) (It's in portuguese and not really good)
 
 [Notebook link](https://drive.google.com/file/d/1HUEUykLzMKWqerbs8MKXjBUgL766klYe/view?usp=sharing)
 
