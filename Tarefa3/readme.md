@@ -1,7 +1,9 @@
-> [!NOTE] Attention
+> [!NOTE] 
+> **Attention**  
 > This document is written in Github-flavoured Markdown and was meant to be read either from the Github Markdown preview or from a compatible Markdown reader.
 
-> [!NOTE] Attention (again)
+> [!NOTE] 
+> **Attention (again)**  
 > This resolution was made with the help of AI. You can check the whole session with ChatGPT 3.5 in [this link](https://chat.openai.com/share/6c634d3d-67e0-4ce5-8c7d-bfa3c3b875bc).
 
 Estudante: Marcos Vinícius Bandeira Irigoyen
