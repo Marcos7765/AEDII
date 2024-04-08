@@ -10,7 +10,7 @@ Estudante: Marcos Vinícius Bandeira Irigoyen
 
 Resolution of task 3 from the [Algorithms and Data Structures II course](https://github.com/ivanovitchm/datastructure) at UFRN. More context about it shall be available at the professor's repository wheter he chooses to.
 
-[Presentation video]() (It's in portuguese and not really good)
+[Presentation video](https://www.youtube.com/watch?v=c7uu_AykbLM) (It's in portuguese and not really good)
 
 Notebook links:
 - [Find Closest Value in BST](https://drive.google.com/file/d/1MF8c_QR90kHAJzwxiN1TomKCQy_2zi3W/view?usp=sharing);
