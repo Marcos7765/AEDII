@@ -1,0 +1,13 @@
+# Requisito 2 — Primeira parte da análise
+![Gráficos das ODS](degree_assortativity_ODS.png)
+
+A expectativa para um grafo de coautoria é de que ele seja assortativo[1], isto é, apresentando correlação positiva entre o grau de um nó e o grau médio de seus vizinhos. Para os objetivos 3, 15 e 17 temos isso bem retratado pelas projeções lineares, enquanto que o 7 (Energia limpa e acessível) destoa com uma baixa correlação. Pela natureza da grande área do objetivo, a cooperação pode estar sendo mais fechada a laboratórios que os demais, gerando esse grau médio que especulativamente caberia num laboratório (poderia isso refletir comunidades como no exemplo dos homens das cavernas? No código que modela a rede já há a capacidade de extrair afiliações, como laboratórios, departamentos, etc. para uma análise de homofilia).
+
+Os gráficos dos objetivos 3 e 15 (Saúde e bem-estar, e Vida terrestre, respectivamente) possuem ambos uma boa correlação de acordo com a reta mas apresentam graus máximos significativamente maiores que os outros. Um aprofundamento no objetivo 3 nos permite ver quatro artigos em específico com números altíssimos de autores, que acabaram formando esses variados conjuntos de pontos por volta dos valores de grau de nó 500 e 1000. O nó de maior grau, por curiosidade, não é afiliado a instituição alguma de ensino ou pesquisa e participou destes quatro artigos.
+
+Vale ressaltar também que a escala dos eixos do gráfico mudam entre comparações. Este é um equívoco que também torna a comparação direta das retas enganosa, e que pela tardia percepção do problema será mantido. Outro detalhe, comentado no livro[2], é sobre o uso de escala logarítmica nos eixos e projeção exponencial, mas para uma análise somente de correlação esta escala e projeção linear não devem afetar.
+
+Com isso em mente, pode-se entender mais facilmente que a rede do objetivo 17 (Parcerias e meios de implementação) tem a melhor correlação, atrás somente da já comentada rede do objetivo 3. Este objetivo, que desde o tema já encaixa com cooperação, possui o menor dos graus máximos entre os objetivos possivelmente pela abrangência de áreas de conhecimento. Estas áreas poderiam refletir comunidades (digo no sentido de "hubs", não li o capítulo sobre "communities"), constrastando com objetivo 7 por ainda ir de acordo com a expectativa. (Em complemento às análises de homofilia, dados sobre a distribuição de graus entre os nós também pode ser interessante[3]).
+
+(Não estou contando palavras a partir daqui)  
+[1, 2, 3]: "Capítulo 27: Quantitative assortativity" do The Atlas for the Aspiring. Páginas 381, 380 e 381~382 respectivamente.
