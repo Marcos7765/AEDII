@@ -2,9 +2,11 @@
 > **Attention**  
 > This document is written in Github-flavoured Markdown and was meant to be read either from the Github Markdown preview or from a compatible Markdown reader.
 
+Estudante: Marcos Vinícius Bandeira Irigoyen
+
 Resolution of task 4 from the [Algorithms and Data Structures II course](https://github.com/ivanovitchm/datastructure) at UFRN. Context beyond this folder's content about it shall be available at the professor's repository wheter he chooses to.
 
-[Presentation video]() (It's in portuguese and not really good) (not yet)
+[Presentation video](https://youtu.be/WyP5Z5OQXhw) (It's in portuguese and not really good) (not yet)
 
 Task 4 is a brief analysis of coauthorship networks made from some UFRN articles, grouped by an common [SDG Goal](https://sdgs.un.org/goals) that they fit in. The network is modelled as a undirected, unweighted graph in which it's nodes symbolize authors and the edges the relation of coauthorship. The analysis is divided between two parts: one focused around the node degree x mean neighbour degree relation (degree-assortativity) and a broader one including also connected components, clustering, and network size.  
 The analysis is made in Portuguese, with it's first and second part in the `readme.md` in folders `requisito2` and `requisito3` respectively.
