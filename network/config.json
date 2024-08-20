@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Marcos Vinícius Bandeira Irigoyen"
+  },
+  "text": {
+    "more": "A network made of wikipedia pages, started out with the initial nodes \"Pretzel\u0027, \"Caipirinha\" and \"Chahan (dish\"). Each directed edge is a reference from a page to the other. Limited to 2nd order neighbours.\n\nMade for task 5 of the Algorithms and Data Structure II course. https://github.com/ivanovitchm/datastructure\n\nFurther details about this specific resolution: https://github.com/Marcos7765/AEDII/tree/main/Tarefa5",
+    "intro": "A network made of wikipedia pages, started out with the initial nodes \"Pretzel\u0027, \"Caipirinha\" and \"Chahan (dish\"). Each directed edge is a reference from a page to the other. Limited to 2nd order neighbours.",
+    "title": "A Wikipedia Food Network"
+  },
+  "legend": {
+    "edgeLabel": "References to",
+    "colorLabel": "Community",
+    "nodeLabel": "Page"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.04,
+      "minEdgeSize": 0.03,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

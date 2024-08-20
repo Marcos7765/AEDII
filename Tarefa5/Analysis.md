@@ -7,6 +7,7 @@ Ainda sobre os itens escolhidos, houve uma diferença considerável entre o tama
 
 ## Métricas de centralidade (requisito 2)
 ![Mapa de calor das medidas de centralidade](images/alltogether.png)
+
 Esta imagem trás os mapas de calor de algumas medidas de centralidade calculadas na rede, sendo elas devidamente normalizadas à mesma escala e coloridas de acordo com o valor das medidas nos nós. Enquanto que todas as medidas buscam esta mesma ideia de nós mais "centrais" ou importantes à rede, podemos inferir diferentes pontos (e com diferentes eficácias) a partir deles.
 
 A _degree centrality_ permite uma análise quantitativa da importância dos nós, mas para esta modelagem ainda deixa escapar a diferenciação entre o grau de entrada e grau de saída — a principal razão de se ter o grafo direcionado. — Com isso, o grau de saída acaba ofuscando o grau de entrada. Medidas como o HITS conseguiriam diferenciar entre um alto grau de entrada (_authority_) e um alto grau de saída (_hub_), mas lidariam com outro problema: as caixas de navegação. Ao fim da página de um determinado assunto, pode haver a presença de uma caixa de navegação com categorias nas quais o assunto se encaixe, abrangendo extensivamente todos os demais artigos das categorias. Isso afeta ambos os graus, mas por conta da distância máxima às páginas iniciais que foi selecionada, acabou impactando muitíssimo mais o grau de saída.
@@ -19,7 +20,7 @@ A _closeness centrality_, refletora da distância média de um nó aos demais, c
 
 Pela _betweenness centrality_ temos uma outra avaliação levando em conta os caminhos dos nós, mas com uma particularidade que consegue tratar dos problemas dos identificadores: para um dado nó são contabilizados somente os caminhos em que ele está no meio, isto é, sem ser origem ou final do caminho. Com isso os identificadores, que ainda que sejam adicionados, não criam conexões, tem valor nulo. Um colateral, entretanto, é que nós que não sejam as páginas iniciais ou vizinhos de nível 1 de alguma subrede também são anulados. Pela própria formação da rede estes nós já seriam periféricos, de qualquer forma.
 
-Ainda neste critério, temos uma visão bem mais coerente nos termos de maior valor: países e alguns pratos figuram entre os maiores valores. As páginas iniciais, bem como as vizinhas em comum delas, acabam chegando aos valores mais altos pela natureza de formação do grafo: todas os vizinhos de categoria, por serem de nível, reconectam-se às páginas iniciais, trazendo um efeito oposto ao dos termos 'filtrados'.
+Ainda neste critério, temos uma visão bem mais coerente nos termos de maior valor: países e alguns pratos figuram entre os maiores valores. As páginas iniciais, bem como as vizinhas em comum delas, acabam chegando aos valores mais altos pela natureza de formação do grafo: todas os vizinhos de categoria, por serem de nível 1, reconectam-se às páginas iniciais, trazendo um efeito oposto ao dos termos 'filtrados'.
 
 Infelizmente, para visualização do mapa, a distribuição da medida acaba dificultando muitíssimo a visualização do mapa: a diferença dos valores entre Pretzel e Alemanhã, os dois maiores nós, corresponde a 50% da escala — restando a metade inferior do intervalo de cores para os demais pontos. Isso, junto ao fato da maioria dos nós serem vizinhos de nível 2 (mesmo depois de truncados), torna-o o pior mapa a se visualizar da imagem.
 
@@ -34,6 +35,7 @@ Escolheu-se uma escala logaritmica no eixo vertical para facilitar a visualizaç
 
 ## O menor K-core e k-shell (requisito 4)
 ![Imagens do k-core de k=325 (vermelho) e k-shell de k=305 (azul)](images/Graph_kcore.png)
+
 OBS.: A imagem foi feita no Gephi colorindo-se o k-core 305 de azul e então colorindo o k-core 325 de vermelho (os dois maiores _core\_number_).
 
 O k-core se refere a comidas/bebidas/ingredientes japoneses em geral, enquanto que seu k-shell ainda abrange mais para comidas de rua em geral. Isso é consequência do tamanho da caixa de navegação da categoria, que para uma categoria presente em uma página inicial, formaria um subgrafo direcionado fortemente conectado. O k-shell é referente a maior categoria do Pretzel, _street food_.
