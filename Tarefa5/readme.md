@@ -8,7 +8,7 @@ Resolution of task 5 from the [Algorithms and Data Structures II course](https:/
 
 [Presentation video](Not yet, hi youtube!)
 
-Task 5 is an analysis of a wikipedia pages network, made from pages up to 2 references away from three initial articles: [Pretzel](https://en.wikipedia.org/wiki/Pretzel), [Caipirinha](https://en.wikipedia.org/wiki/Caipirinha) and [Chahan (dish)](https://en.wikipedia.org/wiki/Chahan_(dish)). The network is modelled as a unweighted directed graph, whose nodes refer to wikipedia articles and edges means references from one article to another. The analysis focuses around centrality measures, in-degree distribution, and k-cores/k-shells. The analysis is mande in Portuguese, and a visualization of the network is available on https://marcos7765.github.io/AEDII_graph/.
+Task 5 is an analysis of a wikipedia pages network, made from pages up to 2 references away from three initial articles: [Pretzel](https://en.wikipedia.org/wiki/Pretzel), [Caipirinha](https://en.wikipedia.org/wiki/Caipirinha) and [Chahan (dish)](https://en.wikipedia.org/wiki/Chahan_(dish)). The network is modelled as a unweighted directed graph, whose nodes refer to wikipedia articles and edges means references from one article to another. The analysis focuses around centrality measures, in-degree distribution, and k-cores/k-shells. The analysis is mande in Portuguese, and a visualization of the network is available on https://marcos7765.github.io/AEDII/network.
 
 ## Folder Structure
 - `images/` is a folder containg PNG images used in the analysis;
@@ -47,5 +47,5 @@ If you've got a better machine than Google Colab's one and is comfortable with r
     - [Wikipedia.ipynb](https://github.com/ivanovitchm/datastructure/blob/main/lessons/week_09/Wikipedia.ipynb) by Ivanovitch Silva (for generation and filtering of the networks);
     - [Hubs.ipynb](https://github.com/ivanovitchm/datastructure/blob/main/lessons/week_08/Hubs.ipynb) by Ivanovitch Silva (for plotting of the centrality measures and in-degree distribution);
 - Theoretical:
-    - [Algorithms and Data Structure II course repository](https://github.com/ivanovitchm/datastructure/tree/main) by Ivanovitch Silva (specifically weeks 05 to 07 pdfs);
+    - [Algorithms and Data Structure II course repository](https://github.com/ivanovitchm/datastructure/tree/main) by Ivanovitch Silva (specifically week 8 and week 9 Gephi tutorials);
     - [The Atlas for the Aspiring Network Scientist](https://www.networkatlas.eu/) by Michele Coscia (chs. 6, 11, 14 specially, 28, 32 and 38 could've been used).
