@@ -86,4 +86,4 @@ print(f"Wall time: {time_after-time_before}")
 print(80*"-")
 print("{} nodes, {} edges".format(len(g), nx.number_of_edges(g)))
 
-nx.write_graphml(g, f"unfiltered_{args.page_name.replace(" ", "__")}.graphml")
+nx.write_graphml(g, "unfiltered_{}.graphml".format(args.page_name.replace(' ', '__')))

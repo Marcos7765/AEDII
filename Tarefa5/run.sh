@@ -10,7 +10,7 @@ format() {
 
 for SEED in $SEEDS; do
     echo Running makeGraph.py on $SEED
-    python makeGraph.py `format $SEED`
+    python makeGraph.py $(format $SEED)
     python -c 'print(80*"-")'
 done
 
