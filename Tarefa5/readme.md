@@ -23,7 +23,7 @@ Task 5 is an analysis of a wikipedia pages network, made from pages up to 2 refe
 
 This specific task was done with two different python scripts (namely `makeGraph.py` and `joinAndFilter.py`), the tool [Gephi](https://gephi.org/), and a jupyter notebook (`Plots.ipynb`). All requirements are listed right after the step to step.
 
-[This notebook]() includes a step-by-step to replicate (as much as it is possible) the execution. Both python scripts have their usage and parameters described with python's `argparse`, so executing `python <SCRIPT_NAME>.py -h` should show the information to run them by themselves.
+[This notebook](https://drive.google.com/file/d/176yqX3XCb4SOsYQtYFL6xZYJGTLfrYIw/view?usp=sharing) includes a step-by-step to replicate (as much as it is possible) the execution. Both python scripts have their usage and parameters described with python's `argparse`, so executing `python <SCRIPT_NAME>.py -h` should show the information to run them by themselves.
 
 ### Requirements
 - Gephi;
@@ -40,9 +40,12 @@ You might find [this tutorial video](https://youtu.be/RLYoEyIHL6A) useful for ge
 
 Manual creation of the layout, using Gephi, is necessary to make most of the images. The Week 09 of the [course repository](https://github.com/ivanovitchm/datastructure/tree/main) has some instructions for it's usage.
 
+If you've got a better machine than Google Colab's one and is comfortable with running the program, I heavily suggest you to do so on this one.
+
 ## References
 - Implementation:
-    - [SDG.ipynb](https://github.com/ivanovitchm/datastructure/blob/main/lessons/week_06/SDG.ipynb) by Ivanovitch Silva (for the requirement 2 plot and graph modelling of the network);
+    - [Wikipedia.ipynb](https://github.com/ivanovitchm/datastructure/blob/main/lessons/week_09/Wikipedia.ipynb) by Ivanovitch Silva (for generation and filtering of the networks);
+    - [Hubs.ipynb](https://github.com/ivanovitchm/datastructure/blob/main/lessons/week_08/Hubs.ipynb) by Ivanovitch Silva (for plotting of the centrality measures and in-degree distribution);
 - Theoretical:
     - [Algorithms and Data Structure II course repository](https://github.com/ivanovitchm/datastructure/tree/main) by Ivanovitch Silva (specifically weeks 05 to 07 pdfs);
-    - [The Atlas for the Aspiring Network Scientist](https://www.networkatlas.eu/) by Michele Coscia (ch. 6-9, 14 e 27 specially).
+    - [The Atlas for the Aspiring Network Scientist](https://www.networkatlas.eu/) by Michele Coscia (chs. 6, 11, 14 specially, 28, 32 and 38 could've been used).
