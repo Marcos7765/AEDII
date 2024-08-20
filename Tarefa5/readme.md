@@ -6,7 +6,7 @@ Estudante: Marcos Vinícius Bandeira Irigoyen
 
 Resolution of task 5 from the [Algorithms and Data Structures II course](https://github.com/ivanovitchm/datastructure) at UFRN. Context beyond this folder's content about it shall be available at the professor's repository whether he chooses to.
 
-[Presentation video](Not yet, hi youtube!)
+[Presentation video](https://youtu.be/O7d9CHqGKp4)
 
 Task 5 is an analysis of a wikipedia pages network, made from pages up to 2 references away from three initial articles: [Pretzel](https://en.wikipedia.org/wiki/Pretzel), [Caipirinha](https://en.wikipedia.org/wiki/Caipirinha) and [Chahan (dish)](https://en.wikipedia.org/wiki/Chahan_(dish)). The network is modelled as a unweighted directed graph, whose nodes refer to wikipedia articles and edges means references from one article to another. The analysis focuses around centrality measures, in-degree distribution, and k-cores/k-shells. The analysis is mande in Portuguese, and a visualization of the network is available on https://marcos7765.github.io/AEDII/network.
 
